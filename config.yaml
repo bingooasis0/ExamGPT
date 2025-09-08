@@ -1,0 +1,22 @@
+region:
+- 855
+- 392
+- 475
+- 250
+show_region_overlay: true
+ocr_engine: auto
+ocr_lang: eng
+ocr_math_mode: true
+ocr_adaptive: true
+ocr_block: 25
+ocr_c: 15
+openai_api_env: OPENAI_API_KEY
+model: gpt-5
+max_tokens: 1024
+system_prompt: Return ONLY the final answer I should type/select (single letter, number,
+  or expression). No steps. No preamble.
+tesseract_cmd: null
+auto_copy_answer_to_clipboard: true
+auto_copy_ocr_text_to_clipboard: true
+log_path: logs\examgpt.log
+config_path: config.yaml

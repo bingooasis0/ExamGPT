@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+*.egg-info/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Project outputs / logs / cache
+app.log
+logs/
+*.log
+
+# Local config/secrets (keep example file tracked instead)
+config.json
+.env
+
+# OCR model/data caches (if any)
+*.pt
+*.onnx
+*.bin
+cache/
